@@ -1,0 +1,139 @@
+<!-- With JSON -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <title>Frontend Mentor | Time tracking dashboard</title>
+</head>
+
+<body>
+  <main>
+    <div class="user">
+      <article>
+        <img class="user_logo" src="./images/image-jeremy.png" alt="image-jeremy">
+        <div>
+          <small>Report for</small>
+          <h1>Jeremy Robson</h1>
+        </div>
+      </article>
+      <div class="occurances">
+        <p id="daily">Daily</p>
+        <p id="weekly" class="texture">Weekly</p>
+        <p id="monthly">Monthly</p>
+      </div>
+    </div>
+    <div id="work" class="info">
+      <div class="try box"></div>
+      <div class="content">
+        <div class="header">
+          <p>Work</p>
+          <button type="button">...</button>
+        </div>
+        <div class="container">
+          <div class="current">
+            <span class="week">32hrs</span>
+          </div>
+          <div class="before">
+            <small class="week">Last week -<span> 36hrs</span></small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="play" class="info">
+      <div class="play_logo box"></div>
+      <div class="content">
+        <div class="header">
+          <p>Play</p>
+          <button type="button">...</button>
+        </div>
+        <div class="container">
+          <div class="current">
+            <span class="week">10hrs</span>
+          </div>
+          <div class="before">
+            <small class="week">Last week -<span> 8hrs</span></small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="study" class="info">
+      <div class="study_logo box"></div>
+      <div class="content">
+        <div class="header">
+          <p>Study</p>
+          <button type="button">...</button>
+        </div>
+        <div class="container">
+          <div class="current">
+            <span class="week">4hrs</span>
+          </div>
+          <div class="before">
+            <small class="week">Last week -<span> 7hrs</span></small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="exercise" class="info">
+      <div class="exercise_logo box"></div>
+      <div class="content">
+        <div class="header">
+          <p>Exercise</p>
+          <button type="button">...</button>
+        </div>
+        <div class="container">
+          <div class="current">
+            <span class="week">4hrs</span>
+          </div>
+          <div class="before">
+            <small class="week">Last week -<span> 5hrs</span></small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="social" class="info">
+      <div class="social_logo box"></div>
+      <div class="content">
+        <div class="header">
+          <p>Social</p>
+          <button type="button">...</button>
+        </div>
+        <div class="container">
+          <div class="current">
+            <span class="week">5hrs</span>
+          </div>
+          <div class="before">
+            <small class="week">Last week - <span> 10hrs</span></small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="self_care" class="info">
+      <div class="selfcare_logo box"></div>
+      <div class="content">
+        <div class="header">
+          <p>Self Care</p>
+          <button type="button">...</button>
+        </div>
+        <div class="container">
+          <div class="current">
+            <span class="week">2hrs</span>
+          </div>
+          <div class="before">
+            <small class="week">Last week -<span> 2hrs</span></small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="./index.js"></script>
+</body>
+
+</html>
